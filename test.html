@@ -1,0 +1,31 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function images(){
+				var image=["ankit.jpg","chait.jpg","megha.jpg","hinal.jpg"];
+				var po=document.getElementById('im');
+				console.log(po);
+				var s=1;
+				setInterval(function(){
+					var op=1;
+					po.style.opacity=op;
+					po.src=image[s];
+/*						setInterval(function(){
+							po.style.opacity=op;
+							op-=0.05;
+						},500)*/
+					s=(s+1)%4;
+					op=1;
+					//console.log(s);
+				},3000);
+			}
+	</script>
+	
+	
+</head>
+	
+	
+	<body onload="images()">
+		<img src="ankit.jpg" id="im"/>
+	</body>
+</html>

@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+
+body{
+	background-color: #e9e9e9;
+	overflow-y: hidden;
+}
+
+header{
+	width: 100%;
+	height: 8%;
+	color: #ffffff;
+	background-color: #0076b6;
+	/*text-align: center;*/
+	box-shadow: 0px 5px 10px 0px #333333;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.del{
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+
+.inner{
+	display: none;
+    right: 0px;
+    position: absolute;
+    width: 185px;
+    margin-top: 25px;
+    background-color: #e3e3e3;
+    color: #333333 !important;
+    box-shadow: 3px 3px 10px 1px #333333;
+}
+
+.account{
+	 padding-bottom: 100px;
+	 padding-left: 30px;
+}
+
+.inner_li{
+	color: #333333;
+	margin: 0;
+	padding: 20px;
+}
+
+.inner_li:hover{
+	background-color: #C5C5C5;
+}
+
+.account:hover .inner{
+	display: block;
+}
+
+#header_left{
+	float: left;
+	    margin-left: 10px;
+}
+
+.smaller{
+	font-size: 12px;
+}
+
+.login_input{
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	font-size: 20px;
+}
+
+li{
+	padding: 17px 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#login_div{
+	display: inline-block;
+	width: 90%;
+	margin-left: 5%;
+	padding: 20px;
+	text-align: center; 
+}
+
+#login{
+	float: left;
+	width: 48%;
+}
+
+#not_image{
+	float: right;
+	width: 48%;
+}
+
+#image_div{
+	float: left;
+	width: 48%;
+		padding-right: 33px;
+	border-right:  solid #333333;
+}
+
+.error{
+	color: red;
+	margin-top: 20px;
+}
+
+#register{
+	float: right;
+	width: 48%;
+	padding-left: 25px;
+	border-left: 2px solid #333333;
+}
+ul,li{
+	list-style: none;
+	font-size: 20px;
+	/*display: inline-block;
+	*/margin-left: 20px;
+}
+
+#header_right{
+    right: 35px;
+    position: absolute;
+}
+
+.title{
+	font-size: 25px;
+    margin-top: 7px;
+    float: left;
+    margin-left: 15px;
+}
+
+#site_logo{
+	float: left;
+	max-height: 50px;
+}
+
+section{
+	margin: 25px auto;
+	height: 70%;
+	overflow-y: scroll;
+}
+
+#search_div{
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	padding: 20px;
+	text-align: center;
+}
+
+.big{
+	font-size: 30px;
+}
+
+#list_div{
+	display: inline-block;
+	width: 90%;
+	margin-left: 5%;
+	padding: 20px;
+	text-align: center;
+}
+
+.outer_li {
+    display: inline-block;
+}
+
+.alogo{
+	max-height: 50px;
+float: left;
+	margin-left: 25%;
+}
+
+.fnumber{
+	    margin-top: 15px;
+}
+
+#confirm_div{
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	padding: 20px;
+	text-align: center;
+}
+
+.button{
+	    background-color: #f7941d;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.button_del{
+	    background-color: #E20000;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.button_ins{
+	    background-color: #00B10E;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+#thank_div{
+	display: inline-block;
+	width: 60%;
+	margin-left: 20%;
+	padding: 20px;
+	text-align: center;
+}
+
+.color{
+	color:#666666;
+}
+
+.center{
+	text-align: center;
+	color: #0076b6;
+}
+
+.button:hover{
+	background-color: #FBB45F;
+}
+
+.button_del:hover{
+	background-color: #FF8D8D;
+}
+
+.button_ins:hover{
+	    background-color: rgba(0, 177, 14, 0.54);
+}
+
+table,tr,th,td{
+	/*border: 1px solid black;*/
+	padding: 15px;
+}
+
+td{
+		background-color: #E0E0E0;	
+}
+
+#pay{
+	text-align: center;
+}
+
+tr{
+	margin:5px 0;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	color: #0076b6;
+	text-align: center;
+	background-color: #c1c1c1;
+}
+
+#im{
+	width: 600px;
+}
+
+.ins_inp{
+	padding: 10px;
+	font-size: 12px;
+}
+
+.big_search{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.sm_inp{
+	width: 100px;
+}
+
+.md_inp{
+	width:150px;
+}
+
+#numb{
+	padding-bottom: 10px;
+    padding-top: 17px;
+}
+
+.med_search{
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.destination{
+	float: right;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	bottom: 10px;
+	position: fixed;
+	color: #333333;
+}
+
+hr{
+	margin: 30px;
+}
+
