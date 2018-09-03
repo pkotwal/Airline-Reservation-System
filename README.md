@@ -1,12 +1,12 @@
 # Airline Reservation System
 
-A online airline ticketing System to allow users to buy cheap domestic tickets
+An online airline ticketing System to allow users to buy cheap domestic tickets
 
 ## Key Features
-- Users can search for flights based on Source, destnation and business day
-- Usesr can view all avalabale flights for a given day and choose to book the one best suited for them
+- Users can search for flights based on Source, destination and business day
+- Users can view all available flights for a given day and choose to book the one best suited for them
 - Ability to view all previous bookings
-- Admin Panel, to allow airline repreentatives to add new flights or modify existing ones
+- Admin Panel, to allow airline representatives to add new flights or modify existing ones
 
 
 ## Screenshots of Site
