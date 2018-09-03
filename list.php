@@ -89,7 +89,7 @@ session_start();
 				<div class="single_entry">
 					<tr>
 						<td><?php echo "<img class='alogo' src='$qlogo' /> <h3 class='fnumber'>$code-$qnum " ?></h3></td>
-						<td><h3><?php echo "$qid hours" ?></h3></td>
+						<td><h3><?php echo "$qdeparture hours" ?></h3></td>
 						<td><h3><?php echo "$qarrival hours" ?></h3></td>
 						<td><h3<?php if($number>$qavail){echo' style="color:red;"';} ?>><?php echo "$qavail " ?></h3></td>
 						<td><h3><?php echo " &#8377 $qprice " ?></h3></td>
